@@ -1,0 +1,64 @@
+/* Styles for the main container */
+div {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Styles for the table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Styles for the "Add" button */
+  button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005F79;
+  }
+  
+  /* Styles for the input field */
+  input[type="email"] {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Styles for the "remove" button */
+  button[type="submit"] {
+    background-color: #f44336;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Style for the "remove" button in each row */
+  button[type="button"] {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #d32f2f;
+  }
+  
